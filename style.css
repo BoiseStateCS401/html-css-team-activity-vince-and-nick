@@ -1,5 +1,56 @@
 body
 {
-    background: grey;
+    background: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p,li{
+    color: darkslategrey;
+}
+
+em{
+    color: lime
+}
+
+ul{
+    list-style-type: georgian;
+}
+
+ol{
+    list-style-type: disc;}
+
+li{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: yellow;
+}
+
+img{
+    border-radius: 60px;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+pre{
+    background-color: aquamarine;
+    border-radius: 40px;
+    border-style: dashed;
+}
+
+table{
+    border-style: ridge;
+    padding: 20px;
+    text-align: center;
 }
