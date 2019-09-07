@@ -1,52 +1,58 @@
 body
 {
-    background: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background: whitesmoke;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     
 }
 
 h1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 30px;
+	text-align: center;
 }
+
+h3{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: 
+#0055BB}
 
 p,li{
     color: darkslategrey;
 }
 
 em{
-    color: lime
+	color: #7500C3;
 }
 
 ul{
-    list-style-type: georgian;
+    list-style-type: decimal;
 }
 
 ol{
-    list-style-type: disc;}
+    list-style-type: circle;}
 
 li{
     margin: 10px;
 }
 
 a{
-    text-decoration: none;
-    background-color: yellow;
+	text-decoration: none;
+	background-color: #F3FF7D;
 }
 
 img{
-    border-radius: 60px;
+	border-radius: 60px;
+	align-content: flex-start;
 }
 
 img:hover{
-    opacity: 0.5;
+	opacity: 0.75;
 }
 
 pre{
-    background-color: aquamarine;
-    border-radius: 40px;
-    border-style: dashed;
+	background-color: #C5D4FB;
+	border-radius: 30px;
+	border-style: hidden;
 }
 
 table{
