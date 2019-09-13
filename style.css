@@ -1,23 +1,24 @@
-body
-{
-	background: whitesmoke;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    
-}
-
-h1{
+head,h1{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 30px;
-	text-align: center;
+	text-align: center;    
 }
 
 h3{
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	color: 
-#0055BB}
+	color: #0055BB
+}
+
+body{
+	background: whitesmoke;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin:20px;
+}
+
 
 p,li{
     color: darkslategrey;
+    width:90%
 }
 
 em{
@@ -43,6 +44,8 @@ a{
 img{
 	border-radius: 60px;
 	align-content: flex-start;
+    padding-left:50px;
+    padding-top:30px;
 }
 
 img:hover{
@@ -53,6 +56,7 @@ pre{
 	background-color: #C5D4FB;
 	border-radius: 30px;
 	border-style: hidden;
+    width:50%
 }
 
 table{
